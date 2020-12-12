@@ -43,12 +43,4 @@ public class ExampleMod
     private void setup(final FMLCommonSetupEvent event) {    }
 
     private void doClientStuff(final FMLClientSetupEvent event) {    }
-
-    public static final ItemGroup TAB = new ItemGroup("exampleTab") {
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.RUBY.get());
-        }
-    };
-
 }
