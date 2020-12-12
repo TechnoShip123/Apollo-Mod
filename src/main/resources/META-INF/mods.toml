@@ -1,0 +1,66 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="examplemod" #mandatory
+
+version="1.15.2-1.0.0" #mandatory
+
+displayName="Example Mod" #mandatory
+
+updateJSONURL="http://google.com" #optional
+
+displayURL="http://github.com/TechnoShip123" #optional
+
+logoFile="examplemod.png" #optional
+
+credits="Me, My Dedication, and My RAM" #optional
+
+authors="TechnoShip123" #optional
+
+# The description text for the mod (multi line!) (#mandatory)
+
+description='''
+This is a test mod created by TechnoShip123.
+
+What does it do? Well? What do you expect? -_-
+
+You know, I could spend some time writing what this mod is about, but doesn't that seem kinda boring?
+
+Exactly.
+
+So instead, I'll sum it up with this!
+
+TEST MOD
+'''
+
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.examplemod]] #optional
+
+    # the modid of the dependency
+    modId="forge" #mandatory
+
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+
+    # The version range of the dependency
+    versionRange="[31,)" #mandatory
+
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
