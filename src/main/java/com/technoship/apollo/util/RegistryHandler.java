@@ -1,7 +1,7 @@
-package com.technoship.examplemod.util;
+package com.technoship.apollo.util;
 
-import com.technoship.examplemod.ExampleMod;
-import com.technoship.examplemod.items.ItemBase;
+import com.technoship.apollo.ApolloMod;
+import com.technoship.apollo.items.ItemBase;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -10,7 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class RegistryHandler {
 
-    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, ExampleMod.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, ApolloMod.MOD_ID);
 
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
