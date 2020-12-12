@@ -17,6 +17,6 @@ public class RegistryHandler {
     }
 
     // Items:
-    public static final RegistryObject<Item> COPPER = ITEMS.register("copper", ItemBase::new);
+    public static final RegistryObject<Item> COPPER = ITEMS.register("copper", ItemBase::new); // copy paste
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
 }
