@@ -6,17 +6,17 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 [[mods]] #mandatory
 
-modId="examplemod" #mandatory
+modId="apollomod" #mandatory
 
 version="1.15.2-1.0.0" #mandatory
 
-displayName="Example Mod" #mandatory
+displayName="Apollo Mod" #mandatory
 
 updateJSONURL="http://google.com" #optional
 
 displayURL="http://github.com/TechnoShip123" #optional
 
-logoFile="examplemod.png" #optional
+logoFile="apollomod.png" #optional
 
 credits="Me, My Dedication, and My RAM" #optional
 
@@ -40,7 +40,7 @@ TEST MOD
 
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.examplemod]] #optional
+[[dependencies.apollomod]] #optional
 
     # the modid of the dependency
     modId="forge" #mandatory
@@ -58,7 +58,7 @@ TEST MOD
     side="BOTH"
 
 # Here's another dependency
-[[dependencies.examplemod]]
+[[dependencies.apollomod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.2]"
