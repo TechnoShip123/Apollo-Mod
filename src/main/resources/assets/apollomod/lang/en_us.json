@@ -1,5 +1,6 @@
 {
   "item.apollomod.copper": "Copper",
   "item.apollomod.ruby": "Ruby",
+  "block.apollomod.ruby_block": "Block of Ruby",
   "itemGroup.apolloTab": "Apollo Mod"
 }
