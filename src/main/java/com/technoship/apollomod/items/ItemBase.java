@@ -7,6 +7,6 @@ import net.minecraft.item.ItemGroup;
 public class ItemBase extends Item {
 
     public ItemBase() {
-        super(new Item.Properties().group(ApolloMod.TAB));  // It belongs in the Materials Tab (C Inventory)
+        super(new Item.Properties().group(ApolloMod.TAB));  // It belongs in the Apollo Mod Tab (C Inventory)
     }
 }
