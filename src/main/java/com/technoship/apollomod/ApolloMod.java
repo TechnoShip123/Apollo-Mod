@@ -1,6 +1,6 @@
-package com.technoship.apollo;
+package com.technoship.apollomod;
 
-import com.technoship.apollo.util.RegistryHandler;
+import com.technoship.apollomod.util.RegistryHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -10,12 +10,12 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("examplemod") // I mean this should be changed later, somehow it works now so let's try making it apollomod or apollo.
+@Mod("apollomod")
 public class ApolloMod
 {
     // Directly reference a log4j logger.`
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "examplemod";
+    public static final String MOD_ID = "apollomod";
 
     public ApolloMod() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);

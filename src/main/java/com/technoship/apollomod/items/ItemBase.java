@@ -1,4 +1,4 @@
-package com.technoship.apollo.items;
+package com.technoship.apollomod.items;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;

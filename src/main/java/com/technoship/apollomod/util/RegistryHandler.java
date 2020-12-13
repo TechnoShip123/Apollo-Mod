@@ -1,7 +1,7 @@
-package com.technoship.apollo.util;
+package com.technoship.apollomod.util;
 
-import com.technoship.apollo.ApolloMod;
-import com.technoship.apollo.items.ItemBase;
+import com.technoship.apollomod.ApolloMod;
+import com.technoship.apollomod.items.ItemBase;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
