@@ -2,5 +2,6 @@
   "item.apollomod.copper": "Copper",
   "item.apollomod.ruby": "Ruby",
   "block.apollomod.ruby_block": "Block of Ruby",
+  "block.apollomod.ruby_ore_block": "Ruby Ore",
   "itemGroup.apolloTab": "Apollo Mod"
 }
