@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "apollomod:block/ruby_ore_block" }
+  }
+}
