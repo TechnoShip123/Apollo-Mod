@@ -1,7 +1,7 @@
 # ExampleMod
 A testing mod created by TechnoShip123 (me)
 
-As of 12/12/2020 this mod is running on Minecraft: v1.15.2
+As of 12/27/2020 this mod is running on Minecraft: v1.15.2
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 How to add the mod
