@@ -10,7 +10,7 @@ public class RubyBlock extends Block{
     public RubyBlock() {
 
         super(Block.Properties.create(Material.IRON)
-                .hardnessAndResistance(4.0f,6.0f)
+                .hardnessAndResistance(3.0f,5.0f)
                 .sound(SoundType.METAL)
                 .harvestLevel(2)
                 .lightValue(2)

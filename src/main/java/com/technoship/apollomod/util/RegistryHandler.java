@@ -25,6 +25,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> COPPER = ITEMS.register("copper", ItemBase::new); // copy paste
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
 
+    // Tools:
+
     // Blocks:
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
     public static final RegistryObject<Block> RUBY_ORE_BLOCK = BLOCKS.register("ruby_ore_block", RubyBlock::new);
