@@ -4,12 +4,16 @@ import com.technoship.apollomod.ApolloMod;
 import com.technoship.apollomod.blocks.BlockItemBase;
 import com.technoship.apollomod.blocks.RubyBlock;
 import com.technoship.apollomod.items.ItemBase;
+import com.technoship.apollomod.tools.ModItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+
+import javax.tools.Tool;
 
 public class RegistryHandler {
 
@@ -26,6 +30,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
 
     // Tools:
+    public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () ->
+            new SwordItem(ModItemTier.RUBY, 4, -2.4F, new Item.Properties().group(ApolloMod.TAB)));
 
     // Blocks:
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);

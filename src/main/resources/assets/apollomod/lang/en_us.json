@@ -3,5 +3,6 @@
   "item.apollomod.ruby": "Ruby",
   "block.apollomod.ruby_block": "Block of Ruby",
   "block.apollomod.ruby_ore_block": "Ruby Ore",
-  "itemGroup.apolloTab": "Apollo Mod"
+  "itemGroup.apolloTab": "Apollo Mod",
+  "item.apollomod.ruby_sword": "Ruby Sword"
 }
