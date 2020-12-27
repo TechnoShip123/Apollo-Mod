@@ -1,4 +1,5 @@
-# ExampleMod, a testing mod created by TechnoShip123 (me)
+# ExampleMod
+A testing mod created by TechnoShip123 (me)
 As of 12/12/2020 this mod is running on Minecraft: v1.15.2
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
